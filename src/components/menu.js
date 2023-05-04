@@ -12,7 +12,7 @@ export const Menu = () => {
         <Link href="/about">About Us</Link>
       </li>
       <li>
-        <Link href="/bcontact">contact</Link>
+        <Link href="/contact">contact</Link>
       </li>
     </ul>
 

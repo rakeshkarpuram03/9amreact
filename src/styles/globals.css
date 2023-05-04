@@ -30,6 +30,7 @@ body{
 }
 .active-menu{
   color:red;
+ mobile-menu{
   text-shadow: 1px 1px 1px whitesmoke;
 }
 .mobile-menu-btn{
@@ -60,4 +61,5 @@ body{
     font-size: 25px;
     font-weight: 400;
     cursor: pointer;
+    text-shadow:1px 1px 1px wheat;
 }

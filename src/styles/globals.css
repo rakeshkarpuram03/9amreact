@@ -30,5 +30,36 @@ body{
 }
 .active-menu{
   color:red;
-  text-shadow:1px 1px 1px wheat;
+ mobile-menu{
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+.mobile-menu-btn{
+  position: absolute;
+  right:0px
+}
+.mobile-menu{
+  height: 200px;
+  width: 150px;
+  display: inline-block;
+  background: #c829cd;
+  list-style-type: none;
+  line-height: 40px;
+  position: absolute;
+  top: 53px;
+  transition: left 1s;
+  padding: 20px;
+  
+}
+.mobile-menu > li{
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.close-btn{
+  position: absolute;
+    right: 0;
+    top: -10px;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    text-shadow:1px 1px 1px wheat;
 }

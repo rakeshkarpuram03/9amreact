@@ -28,10 +28,7 @@ body{
   width:100%
 
 }
-.active-menu{
-  color:red;
-  text-shadow: 1px 1px 1px whitesmoke;
-}
+
 .mobile-menu-btn{
   position: absolute;
   right:0px
